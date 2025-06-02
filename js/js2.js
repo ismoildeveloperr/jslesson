@@ -44,6 +44,36 @@ console.log(-100/0)
 console.log(9900000000000091n + 1n)
 console.log(9900000000000091n + 2n)
 
-const ages = 20
+const ages = 16
 const isChilde = ages < 18
 console.log(isChilde)
+
+let data = null
+console.log(data)
+
+let namess = undefined
+console.log(namess)
+
+const messagesd = 'hello'
+
+console.log(
+    typeof null
+)
+
+const ab = 1234
+const ba = '2323'
+const result=ab + ba
+console.log(result)
+console.log(typeof result)
+
+console.log( typeof( '16' / '8'))
+
+const agee = 11
+
+console.log(typeof age)
+console.log(typeof String(age))
+
+console.log(Boolean('HELLO!'))
+console.log(Boolean('0'))
+console.log(Boolean(' '))
+console.log(Boolean(''))
