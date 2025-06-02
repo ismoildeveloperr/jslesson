@@ -22,3 +22,9 @@ const goodbye = `пока`
 const message = `${greeting}, ${names}!`
 
 console.log(message)
+
+
+const a = 5
+const b = 10
+const sum = `Сумма a и b равна ${a+b}`
+console.log(sum)
