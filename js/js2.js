@@ -13,3 +13,12 @@ let skills = ["JS", "CSS"]; // массив
 var message = "Hello";
 // const — постоянные значения
 const birthYear = 1995;
+
+
+const greeting = 'Привет'
+const names = "Александр"
+const goodbye = `пока`
+
+const message = `${greeting}, ${names}!`
+
+console.log(message)
