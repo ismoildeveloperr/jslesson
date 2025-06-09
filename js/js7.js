@@ -317,20 +317,25 @@ while (true) {
 
 // console.log(count);
 
+// for (let i = 1; i <= 10; i++) {
+//   if (i === 5) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+
+// for(i=0; i<=100; i++){
+//   if(i===20){
+//     break;
+//   }
+//   console.log(i);
+// }
+
+
+
+let sum = 0;
 for (let i = 1; i <= 10; i++) {
-  if (i === 5) {
-    break;
-  }
-  console.log(i);
+  sum += i;
 }
-
-
-for(i=0; i<=100; i++){
-  if(i===20){
-    break;
-  }
-  console.log(i);
-}
-
-
-
+console.log("Сумма от 1 до 10:", sum);
