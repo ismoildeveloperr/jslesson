@@ -500,15 +500,13 @@
 // Задача 1: Копируй объект с Object.assign(), сделай деструктуризацию {name, age}.
 
 // const original = {
-//   name: "Alice",
+//   name: "ismoil",
 //   age: 30,
-//   city: "New York"
+//   city: "Tajikistan"
 // };
 
-// // Копирование объекта
 // const copy = Object.assign({}, original);
 
-// // Деструктуризация
 // const { name, age } = copy;
 
 // console.log(name); 
