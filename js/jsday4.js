@@ -62,75 +62,75 @@
 
 
 
-const name = 'Александр'
-const emptyStr =''
-const srtWithOneSpace = ' '
+// const name = 'Александр'
+// const emptyStr =''
+// const srtWithOneSpace = ' '
 
-console.log(`Длина строки '${name}': `, name.length)
-console.log(`Длина строки '${emptyStr}': `, emptyStr.length)
-console.log(`Длина строки '${srtWithOneSpace}': `, srtWithOneSpace.length)
-console.log('123'.length)
+// console.log(`Длина строки '${name}': `, name.length)
+// console.log(`Длина строки '${emptyStr}': `, emptyStr.length)
+// console.log(`Длина строки '${srtWithOneSpace}': `, srtWithOneSpace.length)
+// console.log('123'.length)
 
-const names = 'ismoil'
-console.log(names[0])
-console.log(names[names.length-1])
-console.log(names.at(0))
-console.log(names.at(1))
-console.log(names.at(-1))
-console.log(names.toLowerCase())
-console.log(names.toUpperCase())
+// const names = 'ismoil'
+// console.log(names[0])
+// console.log(names[names.length-1])
+// console.log(names.at(0))
+// console.log(names.at(1))
+// console.log(names.at(-1))
+// console.log(names.toLowerCase())
+// console.log(names.toUpperCase())
 
-const message = '      ismoil!     '
-console.log(message)
-console.log(message.length)
-const messagetrim = message.trim()
-console.log(messagetrim)
+// const message = '      ismoil!     '
+// console.log(message)
+// console.log(message.length)
+// const messagetrim = message.trim()
+// console.log(messagetrim)
 
-const messagess = 'hello every one good bye'
-console.log(
-    messagess.indexOf('every one')
-)
+// const messagess = 'hello every one good bye'
+// console.log(
+//     messagess.indexOf('every one')
+// )
 
-const messagesss = 'hello every one good bye'
-console.log(
-    messagesss.includes('hellok')
-)
+// const messagesss = 'hello every one good bye'
+// console.log(
+//     messagesss.includes('hellok')
+// )
 
-const messagessss = 'hello every one good bye'
-console.log(
-    messagessss.startsWith('hell')
-)
-console.log(
-    messagessss.endsWith('by')
-)
-const namess = 'Ismoil'
+// const messagessss = 'hello every one good bye'
+// console.log(
+//     messagessss.startsWith('hell')
+// )
+// console.log(
+//     messagessss.endsWith('by')
+// )
+// const namess = 'Ismoil'
 
-console.log(namess.substring(0,5))
-console.log(namess.substring(5,0))
-console.log(namess.substring(4))
-console.log(namess.slice(0,4))
-console.log(namess.slice(4,0))
-console.log(namess.slice(-4))
-console.log(namess.repeat(300))
+// console.log(namess.substring(0,5))
+// console.log(namess.substring(5,0))
+// console.log(namess.substring(4))
+// console.log(namess.slice(0,4))
+// console.log(namess.slice(4,0))
+// console.log(namess.slice(-4))
+// console.log(namess.repeat(300))
 
-const messaged = 'Я изучаю бекенд бекенд бекенд '
-console.log(messaged.replace('бекенд', 'фронтенд'))
-console.log(messaged.replaceAll('бекенд', 'фронтенд'))
+// const messaged = 'Я изучаю бекенд бекенд бекенд '
+// console.log(messaged.replace('бекенд', 'фронтенд'))
+// console.log(messaged.replaceAll('бекенд', 'фронтенд'))
 
-const str = '+7(999) 999-99-99'
-console.log(str.replace(/\d/g, '#'))
+// const str = '+7(999) 999-99-99'
+// console.log(str.replace(/\d/g, '#'))
 
-const strr = 'Привет мир'
-console.log(strr.split(', '))
+// const strr = 'Привет мир'
+// console.log(strr.split(', '))
 
-const value = prompt('Введите ваше имя:')
-const clearValue= value.trim().toLowerCase()
-if(clearValue.length===0){
-    alert('Ошибка! Имя не может быть пустым.')
-}
-if(clearValue.includes('админ')){
-    alert('Ошибка! вы не можете это выбират.')
-    }
+// const value = prompt('Введите ваше имя:')
+// const clearValue= value.trim().toLowerCase()
+// if(clearValue.length===0){
+//     alert('Ошибка! Имя не может быть пустым.')
+// }
+// if(clearValue.includes('админ')){
+//     alert('Ошибка! вы не можете это выбират.')
+//     }
 
 
 /*
@@ -155,4 +155,147 @@ if(clearValue.includes('админ')){
 18	Что делает replace('бекенд', 'фронтенд')?	A)Заменяет все B)Первое только C)Удаляет D)Ошибка	B	B	✅ Правильно
 19	Что делает replaceAll('бекенд', 'фронтенд')?	A)Первое только B)Все вхождения C)Ошибка D)Добавляет	B	B	✅ Правильно
 20	Что делает .replace(/\d/g, '#')?	A)Заменяет первую цифру B)Все цифры на # C)Удаляет цифры D)Ошибка	B	B	✅ Правильно
+*/
+
+
+// const arr = ['Привет', 100, true,]
+// console.log('arr:', arr)
+// console.log('typeof arr:', typeof arr)  
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[2])
+
+// const arrr =[
+//     'Привет',
+//     200,
+//     true,
+//     {name:'Александр'},
+//     ()=> console.log('xaxaxa'),
+//     [true, true, true],
+// ]
+// console.log(arrr[0])
+// console.log(arrr[1])
+// console.log(arrr[2])
+// console.log(arrr[3])
+// console.log(arrr[4]())
+// console.log(arrr[5][1])
+
+// const matrix =[
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9],
+// ]
+// console.log(matrix[1][0])
+
+// const arr=[
+//     'Привет',
+//     100,
+//     true,
+// ]
+// console.log('arr before:', arr)
+
+// arr[0]= 'Пока',
+// arr[1]= 200,
+// arr[2]= false
+// arr[3]='1000'
+// arr[100]='Bay'
+// console.log('arr after:', arr)
+// console.log(arr[arr.length-1])
+// console.log(arr.at(3))
+
+
+// const letters=['А','Б','В']
+// console.log('letters before:', letters)
+// letters.push('Г','Д')
+// letters.unshift('Г','Д')
+// console.log(letters.pop())
+// console.log(letters.shift())
+// console.log('letters after:', letters)
+
+// const arr=[
+//     'Привет',
+//     100,
+//     true,
+//     {name:'Александр'},
+//     ()=> console.log('xaxaxa'),
+//     [true, true,true],
+// ]
+// console.log(arr.toString())
+// console.log(arr.join(', '))//массив в строку
+
+// const message ='Один, два, три, четыре, пять'
+// console.log(message.split(', ').join(', '))//строку в массив
+
+// const arr1=['А','Б','В']
+// const arr2=arr1
+// arr2[2]='-'
+// console.debug('arr1:', arr1)
+// console.debug('arr2:', arr2)
+
+// const arr1=['А','Б','В']
+// const arr2=[...arr1]
+// arr2[2]='_'
+// console.debug('arr1:', arr1)
+// console.debug('arr2:', arr2)
+
+// const arr1=['А','Б','В']
+// const arr2=arr1.slice()
+// arr2[2]='_'
+// console.debug('arr1:', arr1)
+// console.debug('arr2:', arr2)
+
+// const arr1=['A','B','C']
+// const arr2=['Q','W','E']
+// const arr3=['Q','W','E']
+// const result=arr1.concat(arr2,arr3)
+// console.log(result)
+
+// const arr1=['A','B','C']
+// const arr2=['Q','W','E']
+// const areArraysEqual = (array1, array2) => {
+//     if(array1.lenght !== array2.lenght){
+//         return false
+//     }
+//     for (let i = 0; i < array1.lenght; i++){
+//         const value1 = array1[i]
+//         const value2 = array2[i]
+//         const areValuesArrays = 
+//         Array.isArray(value1) && Array.isArray(value2)
+
+//         if(areValuesArrays){
+//             if(!areArraysEqual(value1, value2)){
+//                 return false
+//             }else{
+//                 continue
+//             }
+//         }
+//         if (value1 !== value2) {
+//             return false
+//         }
+//     }
+//     return true 
+// }
+// console.log(areArraysEqual(arr1, arr2))
+/*
+№	Вопрос	Твой ответ	Правильный ответ	Результат
+1	typeof массива	B	B	✅
+2	второй элемент	A	A	✅
+3	matrix[1][0]	C	C	✅
+4	.push()	C	C	✅
+5	.shift()	C	B	❌
+6	toString()	A	A	✅
+7	split()	C	C	✅
+8	join()	B	B	✅
+9	ссылка на массив	A	C	❌
+10	копирование массива	C	C	✅
+11	arr[100]	C	C	✅
+12	.unshift()	C	C	✅
+13	.pop()	B	B	✅
+14	arr.at(3)	B	B	✅
+15	вызов функции из массива	--	B	❌ (нет ответа)
+16	второй элемент вложенного массива	--	B	❌ (нет ответа)
+17	.concat()	B	B	✅
+18	typeof объекта	B	B	✅
+19	элемент с индексом 100	A	A	✅
+20	join(', ')	A	D	❌
 */
