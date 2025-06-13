@@ -250,32 +250,7 @@
 // const result=arr1.concat(arr2,arr3)
 // console.log(result)
 
-// const arr1=['A','B','C']
-// const arr2=['Q','W','E']
-// const areArraysEqual = (array1, array2) => {
-//     if(array1.lenght !== array2.lenght){
-//         return false
-//     }
-//     for (let i = 0; i < array1.lenght; i++){
-//         const value1 = array1[i]
-//         const value2 = array2[i]
-//         const areValuesArrays = 
-//         Array.isArray(value1) && Array.isArray(value2)
 
-//         if(areValuesArrays){
-//             if(!areArraysEqual(value1, value2)){
-//                 return false
-//             }else{
-//                 continue
-//             }
-//         }
-//         if (value1 !== value2) {
-//             return false
-//         }
-//     }
-//     return true 
-// }
-// console.log(areArraysEqual(arr1, arr2))
 /*
 №	Вопрос	Твой ответ	Правильный ответ	Результат
 1	typeof массива	B	B	✅
