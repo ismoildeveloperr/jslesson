@@ -274,3 +274,229 @@
 19	элемент с индексом 100	A	A	✅
 20	join(', ')	A	D	❌
 */
+// const data = ['Александр', 28]
+// const[name,age]=data
+// console.log('name:', name)
+// console.log('age', age)
+
+// const letters =['А','Б','В','Г','Д']
+// for (let i=0;i<letters.length; i++){
+//     console.log(letters[i])
+// }
+
+
+// const letters=['A','B','D','X','F']
+// letters.forEach((letter) => {
+//     console.log(letter)
+// })
+
+
+// const number=[100,200,300,400,500,600]
+// console.log(number.indexOf(400))
+// const number =[100, 200, 444, 500, 444, 777]
+// console.log(number.lastIndexOf(200,2))
+// const fruits = ["яблоко", "груша", "виноград"];
+
+// fruits.forEach((fruit, index) => {
+//   console.log(`${index}: ${fruit}`);
+// });
+
+
+// const nums = [1, 2, 3];
+// const squares = nums.map(n => n * n);
+// console.log(nums)
+// console.log(squares); // [1, 4, 9]
+
+// const nums = [1, 2, 3, 4, 5];
+// const evens = nums.filter(n => n % 2 === 0);
+
+// console.log(evens); // [2, 4]
+
+// const users = [
+//   { id: 1, name: "Анна" },
+//   { id: 2, name: "Иван" },
+//   { id: 3, name: "Иван" },
+
+// ];
+
+// const user = users.find(u => u.id === 2);       // {id:2, name:"Иван"}
+// const index = users.findIndex(u => u.id === 2); // 1
+// console.log(user)
+// console.log(index)
+
+// const nums = [3, 7, 8];
+
+// console.log(nums.some(n => n % 2 === 0));  // true
+// console.log(nums.every(n => n < 10));      // true
+
+// const user = {
+//     name: 'Александр',
+//     age: 28,
+//     city: 'Москва',
+// }
+// for (const key in user){
+//     console.log('Имя свойства:', key)
+//     console.log('Значения свойства:', user[key])
+// }
+
+// const user = {
+//     name: 'Александр',
+//     age: 28,
+//     city: 'Москва',
+// }
+// const userValues = Object.keys(user)
+// console.log('userValues:', userValues)
+
+// userValues.forEach((value) => {
+//     console.log('Значение свойства:', value)
+// })
+
+// const user = {
+//     name: 'Александр',
+//     age: 28,
+//     city: 'Москва',
+// }
+// const userEntries=Object.entries(user)
+// console.log('userEntries', userEntries)
+
+// userEntries.forEach(([key, value])=>{
+//     // const key=userEntry[0]
+//     // const value= userEntry[1]
+//     console.log('Имя свойтсва:', key)
+//     console.log('Значения свойтсва:', value)
+    
+// })
+
+// const user = {
+//     name:'Александр',
+//     age: 28, 
+//     city: 'Москва',
+// }
+// const userEntries = Object.entries(user)
+// const userEntriesFormatted = userEntries.map(([key, value ])=>{
+//     return [key.toUpperCase(),`~~${value}~~`]
+// })
+// console.debug('userEntriesFormatted:', userEntriesFormatted)
+// // const userFormatted = Object.fromEntries(userEntriesFormatted)
+// // console.log('userFormatted:', userFormatted)
+
+// const userFormatted=Object.fromEntries(userEntriesFormatted)
+// console.log('userFormatted', userFormatted)
+// const data ={}
+//     data[1]= 'Один как число'
+//     data['1']= 'Один как строка'
+//     console.log('data:', data)
+
+// const data = new Map([
+//     [1, 'Один как число'],
+//     ['1', 'Один как строка'],
+// ])
+// console.log('data:', data)
+
+// const data = new Map()
+// data.set(1, 'Один как число'),
+// data.set('1', 'Один как строка'),
+
+// console.log(data.get(1))
+// console.log(data.get('1'))
+// const data = new Map();
+// data.set('name', undefined);
+// console.log( data.has('name'));
+
+// const data = new Map()
+// data.set('name', undefined)
+// data.set('surname', undefined)
+// data.delete('name')
+// console.log(data.has('surname '))
+
+// const data = new Map()
+// data.set('name', 'Александр')
+// data.set('age', 28)
+// data.clear()
+// console.log('data:', data)
+// const data = new Map()
+// data.set('name', 'Александр')
+// data.set('age', 28)
+// console.log(data.size)
+// const data = new Map()
+// data.set('name', 'Александр')
+// data.set('age', 28)
+// console.log('keys:', data.keys())
+// console.log('values:', data.values())
+// console.log('entries:', data.entries())
+
+// const data = new Map()
+// data.set('name', 'Александр')
+// data.set('age', 28)
+// for (const key of data.keys()){
+//     console.log('key:', key)
+// }
+// for (const values of data.values()){
+//     console.log('values:', values)
+// }
+// for (const entries of data.entries()){
+//     console.log('entries:', entries)
+// }
+
+// const map = new Map([
+//     ['name', 'Александр'],
+//     ['age', 28],
+//     [1, 'Один как число'],
+//     ['1', 'Один как строка'],
+// ])
+// const obj = Object.fromEntries(map)
+// console.log(obj)
+
+// const set = new Set([1,2,2,2,3])
+// console.log(set)
+
+// const arr = [100,100,1000,1000,1000,5000]
+// const set = new Set(arr)
+// console.log(set)
+
+// const arr = []
+// const set = new Set()
+// arr.push('Александр')
+// arr.push('Александр')
+// arr.push('Александр')
+
+// set.add('Александр')
+// set.add('Александр')
+// set.add('Александр')
+
+// console.log('arr:', arr)
+// console.log('set:', set)
+
+// const set = new Set()
+// set.add('Александр')
+// set.delete('Александр')
+// console.log(`Содержит ли set значение 'Александр':`,
+//     set.has('Александр')
+// )
+// set.add('Максим')
+// set.add('Григорий')
+// console.log('size посел добавления двух элементов:', set.size)
+// set.clear()
+// console.log('size после удаления всех элементов:', set.size)
+
+// const set = new Set()
+// set.add('Александр')
+// set.add('Максим')
+
+// for (const key of set.keys()){
+//     console.log('key:', key)
+// }
+
+// for (const values of set.values()){
+//     console.log('values:', values)
+// }
+
+// for (const entries of set.entries()){
+//     console.log('entries:', entries)
+// }
+const user = {
+  name: "John",
+  age: 30,
+  isStudent: false,
+  skills: ["HTML", "CSS", "JavaScript"]
+};
