@@ -494,9 +494,11 @@
 // for (const entries of set.entries()){
 //     console.log('entries:', entries)
 // }
-const user = {
-  name: "John",
-  age: 30,
-  isStudent: false,
-  skills: ["HTML", "CSS", "JavaScript"]
-};
+// const user = {
+//   name: "John",
+//   age: 30,
+//   isStudent: false,
+//   skills: ["HTML", "CSS", "JavaScript"]
+// };
+
+
